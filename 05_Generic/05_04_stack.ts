@@ -45,7 +45,7 @@ stackGeneric.push('chloe_01');
 stackGeneric.push('chloe_02');
 stackGeneric.push('chloe_03');
 
-stack2.push('chloe_01');
+// stack2.push('chloe_01');
 while (stack.size !== 0) {
   console.log(stack.pop())
 }
