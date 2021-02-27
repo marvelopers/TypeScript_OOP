@@ -24,6 +24,6 @@
 
   type Person = {
     name : string;
-    petType: Animal['type']
+    petType: Animal['type'];
   }
 }

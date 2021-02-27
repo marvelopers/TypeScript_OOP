@@ -5,6 +5,6 @@
   }
 
   function display(todo: ReadOnly<ToDo>){
-    
+    title: 'todolist'
   }
 }
