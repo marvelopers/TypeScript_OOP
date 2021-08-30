@@ -5,6 +5,6 @@
   }
 
   function display(todo: Readonly<ToDo>){
-    todo.title = 'todolist' // 오류 발생
+    // todo.title = 'todolist' // 오류 발생
   }
 }
