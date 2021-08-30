@@ -8,7 +8,7 @@
   }
   type ResultState = SuccessState | NetworkErrorState;
   class NetworkClient {
-    tryConnect(): ResultState { }
+    tryConnect(): ResultState {}
   }
 
   class UserService {

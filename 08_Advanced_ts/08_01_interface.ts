@@ -18,15 +18,14 @@ interface PositionInterface {
 interface ZPositionInterface extends PositionInterface {
   z:number
 }
-type ZPositionType = PositionType & { z:number }
+type ZPositionType = PositionType & { z:number };
 
 // interface 만 결합이 가능하다.
-// only type
-type Person ={
+// only type : Type aliases can use computed properties.
+type Person = {
   name: string,
   age: string
-} 
-
+}
 type Name = Person['name']; //string
 type NumberType = number;
 type Direction = 'TOP' | 'DOWN'
