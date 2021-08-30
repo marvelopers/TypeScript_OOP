@@ -4,7 +4,7 @@
     desc: string;
   }
 
-  function display(todo: ReadOnly<ToDo>){
-    title: 'todolist'
+  function display(todo: Readonly<ToDo>){
+    todo.title = 'todolist' // 오류 발생
   }
 }
