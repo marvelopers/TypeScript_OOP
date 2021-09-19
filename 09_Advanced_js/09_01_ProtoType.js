@@ -18,7 +18,7 @@ console.log(array)
 
 function CoffeeMachine(beans){
   this.beans = beans;
-  // Instance mamber level
+  // Instance member level
   // this.makeCoffee = (shots) => {
   //   console.log('making...');
   // }
